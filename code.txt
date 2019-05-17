@@ -1,0 +1,2 @@
+t=Import["t32.stl", "MeshRegion"]
+Graphics3D[{LightBlue, t, Green, Sphere[{-48.499290,-64.923294,0.239130}], Red, Sphere[RegionCentroid[t]]}]
